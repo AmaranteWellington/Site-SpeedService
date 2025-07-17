@@ -6,7 +6,7 @@ const Home = () => {
       <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">
         Nossos Serviços
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
         <ServiceCard
           title="Instalação"
           description="Serviço de instalação de ar-condicionado com técnicos certificados."
