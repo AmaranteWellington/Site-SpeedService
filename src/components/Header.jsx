@@ -6,13 +6,13 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">SpeedService</h1>
         <nav className="space-x-4">
-          <Link to="/" className="houver:underline">
+          <Link to="/" className="hover:text-yellow-400 transition">
             Início
           </Link>
-          <Link to="/servicos" className="houver:underline">
+          <Link to="/servicos" className="hover:text-yellow-400 transition">
             Serviços
           </Link>
-          <Link to="/contato" className="houver:underline">
+          <Link to="/contato" className="hover:text-yellow-400 transition">
             Contato
           </Link>
         </nav>
